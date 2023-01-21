@@ -1,0 +1,65 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: black;
+  }
+  .fcc-other-month {
+    visibility: hidden !important;
+  }
+  .head-wall {
+    background-color: #2b0e3f;
+    background: #000000;
+    color: white;
+    padding: 4px;
+    border-bottom: 3px solid white;
+  }
+  .month-name {
+    margin: 2px;
+    color: white;
+  }
+  .month-name-col {
+    background-color: #000000;
+  }
+  
+  .calender-date {
+    color: white;
+    font-weight: 700;
+  }
+  /* th {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+  
+  } */
+  .tableContainer table {
+    float: left;
+    margin: auto;
+    width: 40%;
+    background-color: rgb(248, 250, 216);
+  
+    margin: 10px;
+    border: 2px solid #2b0e3f;
+    padding: 10px;
+    border-radius: 10px;
+    height: 400px !important;
+  }
+  
+  .calender-row {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .calender-col {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 40px;
+    font-weight: 500;
+  }
+  
+  .isDates-grey {
+    color: rgb(255, 0, 0);
+  }
